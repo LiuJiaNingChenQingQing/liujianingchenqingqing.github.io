@@ -1,0 +1,35 @@
+{
+    // 左上角的标题（也是首页图像下面的一级标题）
+    "title": "java notebook",
+    // 首页头像下面标题的解释
+    "description": "任你查",
+    // 右上角 跳转GitHub的地址（写一个GitHub项目地址）
+    "repo": "https://github.com/LiuJiaNingChenQingQing/liujianingchenqingqing.github.io",
+
+    // 设置侧边栏是否全部默认展开（一般官方介绍经常使用这个）
+    "collapsable": true, // 注意：false 是展开，true 是不展开
+    // 代码块是否显示行号
+    "lineNumbers": false,
+
+    // 使用的 图片缩放 插件（目前只支持这一个） "plugin": ["vuepress-plugin-zooming"],
+    "plugin": [],
+
+    // true：每次 serve build 都会重新 覆盖 build/.vuepress 里面的内容，方便第一次生成配置
+    // false：不会覆盖 build/.vuepress 内容，方便后期的拓展（为了方便，及时选了false，也会重新生成侧边栏目录和nav配置）
+    "isCreateConfigJs": true,
+
+    // 文件夹展示顺序（有需求就进行设置，不仅可以设置需要显示的文件夹，还能设置展示的顺序，这里可能有点绕）
+    "folderShowOrder": [
+        {
+            "title": "1.quickcheck",
+            "alias": "Java速查",
+            "childrenFolder": ["1.java方法", "2.MySQL方法", ]
+        },
+        {
+            "title": "2.note",
+            "alias": "Java体系",
+            "childrenFolder": ["1.javaSE", ]
+        },
+        
+    ]
+}

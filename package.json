@@ -1,0 +1,22 @@
+{
+  "name": "liujianingchenqingqing.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd ./src; npx vpe build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiuJiaNingChenQingQing/liujianingchenqingqing.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiuJiaNingChenQingQing/liujianingchenqingqing.github.io/issues"
+  },
+  "homepage": "https://github.com/LiuJiaNingChenQingQing/liujianingchenqingqing.github.io#readme",
+  "dependencies": {
+    "vuepress-es": "^1.3.2"
+  }
+}
