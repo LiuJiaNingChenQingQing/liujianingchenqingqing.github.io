@@ -23,12 +23,12 @@
         {
             "title": "1.quickcheck",
             "alias": "Java速查",
-            "childrenFolder": ["1.java方法", "2.MySQL方法", ]
+            "childrenFolder": ["1.java方法", "2.MySQL方法", "3.linux方法","4.html常用的方法",]
         },
         {
             "title": "2.note",
             "alias": "Java体系",
-            "childrenFolder": ["1.javaSE", ]
+            "childrenFolder": ["1.javaSE","2.java轻量级框架" ]
         },
         
     ]

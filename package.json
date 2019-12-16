@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd ./src; npx vpe build"
+    "build": "cd .\\src\\; npx vpe build",
+    "start": "cd .\\src\\; npx vpe serve"
   },
   "repository": {
     "type": "git",
